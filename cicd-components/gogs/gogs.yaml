@@ -300,7 +300,7 @@ objects:
           - -c
           - |
 
-            GOGS_HOSTNAME="gogs-gogs.ocp.thelinuxshack.com"
+            GOGS_HOSTNAME="gogs-$CICD_NAMESPACE.$HOSTNAME"
             GOGS_SVC=$(oc get svc gogs -o template --template='{{.spec.clusterIP}}')
             GOGS_USER=gogs
             GOGS_PWD=gogs
