@@ -1,0 +1,13 @@
+node {
+
+    try {
+
+        stage('Checkout') {
+            // Checkout 
+        }
+
+        stage('Create Project') {
+          // do smth here
+        }
+
+}
