@@ -1,0 +1,9 @@
+[submodule "student-repos/springboot-adj"]
+	path = student-repos/springboot-adj
+	url = git@github.com:RedHatWorkshops/springboot-adj.git
+[submodule "student-repos/wildfly-noun"]
+	path = student-repos/wildfly-noun
+	url = git@github.com:RedHatWorkshops/wildfly-noun.git
+[submodule "student-repos/vertx-gateway"]
+	path = student-repos/vertx-gateway
+	url = git@github.com:RedHatWorkshops/vertx-gateway.git
