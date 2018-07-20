@@ -40,7 +40,7 @@ objects:
             command:
               - "/bin/bash"
               - "-c"
-              - "curl -o /tmp/nexus3-functions -s https://raw.githubusercontent.com/RedHatWorkshops/dil-cloudnative/master/cicd-components/nexus/nexus3-persistent.yaml; source /tmp/nexus3-functions; add_nexus3-functions_redhat_repos admin admin123 http://${SERVICE_NAME}:8081"
+              - "curl -o /tmp/nexus3-functions -s https://raw.githubusercontent.com/RedHatWorkshops/dil-cloudnative/master/cicd-components/nexus/nexus3-functions; source /tmp/nexus3-functions; add_nexus3-functions_redhat_repos admin admin123 http://${SERVICE_NAME}:8081"
       type: Recreate
     template:
       metadata:
