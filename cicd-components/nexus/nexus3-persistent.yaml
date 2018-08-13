@@ -41,7 +41,6 @@ objects:
               - "/bin/bash"
               - "-c"
               - "curl -o /tmp/nexus3-functions -s https://raw.githubusercontent.com/RedHatWorkshops/dil-cloudnative/master/cicd-components/nexus/nexus3-functions; source /tmp/nexus3-functions; add_nexus3_redhat_repos admin admin123 http://${SERVICE_NAME}:8081"
-              -  def version, mvnCmd = "mvn -s configuration/cicd-settings-nexus3.xml"
       type: Recreate
     template:
       metadata:
