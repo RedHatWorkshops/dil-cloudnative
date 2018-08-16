@@ -175,9 +175,9 @@ objects:
             protocol: TCP
           resources:
             limits:
-              memory: 1Gi
+              memory: 6Gi
             requests:
-              memory: 256Mi
+              memory: 1Gi
           terminationMessagePath: "/dev/termination-log"
           terminationMessagePolicy: File
         restartPolicy: Always
