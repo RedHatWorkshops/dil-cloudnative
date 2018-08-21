@@ -7,9 +7,7 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  labels:
-    app: che
-  name: che-data-volume
+  name: che-data-volume-2
 spec:
  accessModes:
  - ReadWriteOnce
